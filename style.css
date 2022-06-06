@@ -1,0 +1,260 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+.navbar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 1.5);
+	position: sticky;
+	top: 0;
+}
+.navbar ul{
+	display: flex;
+	list-style: none;
+	margin: 15 px 0px;
+}
+.navbar ul li {
+	font-family: century;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+.navbar ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 8px 25px;
+	transition: all .5s ease;
+
+}
+.navbar ul li a:hover{
+	cursor: pointer;
+	background-color: white;
+	color: black;
+	box-shadow: 0 0 10px yellow ,0 0 3px  yellow;
+
+}
+#Home {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 840px;
+	justify-content: center;
+	align-items: center;
+	color: whitesmoke;
+	
+}
+#Home::before{
+	content: "";
+	position: absolute;
+	top :0 ;
+	left: 0;
+	background : url("myimg.jpg")  top no-repeat;
+	height: 100%;
+	width: 100%;
+	opacity: .9;
+	z-index: -1;
+
+}
+
+.main{
+	display: flex;
+	flex-direction: right;
+	/*border: 1px solid white;*/
+	align-items: center;
+	position: absolute;
+	top: 75%;
+	right: 20%;
+
+}
+.headings{
+	font-family: century;
+	font-size: 2rem;
+	text-align: center;
+	margin: 15px 2px;
+	top: 40%;
+}
+.second{	display: flex;
+	flex-direction: right;
+	/*border: 1px solid white;*/
+	align-items: left;
+	position: absolute;
+	top: 90%;
+	right: 40%;
+
+
+}
+.btn
+{
+	padding: 10px 10 px;
+	background-color: transparent;
+	border: 1px solid white;
+	color: whitesmoke;
+	outline: none;
+	transition: .6s ease;
+	font-size: 1.2rem;
+	text-align:right;
+	position: relative;
+}
+.btn:hover{
+	cursor: pointer;
+	background-color: black;
+	color: whitesmoke;
+	box-shadow: 0 0 5px yellow, 0 0 10px yellow;
+}
+#About{
+	display: flex;
+	justify-content: safe center;
+
+	flex-direction: column;
+	box-sizing: border-box;
+	
+	background-color: rgba(0, 0, 0, 0.5);
+	
+	
+	color: whitesmoke;}
+	position:relative ;
+#About :: before	  
+    content: "";
+	position: absolute;
+	top :30% ;
+	left: 0;
+	
+	height: 50%;
+	width: 100%;
+	
+.intro{
+	display: flex;
+	flex-direction: column;
+}	
+
+
+
+/* Clear floats after the columns */
+.Pic:after {
+  content: "";
+  display: table;
+  clear: both;
+  box-sizing: 7px black;
+}
+.myself h2{
+	padding-right: 50%;
+	padding-bottom: 70%;
+}
+.Pic img {
+	padding-left:20% ;
+	float: left;
+	width: 50%;
+
+}
+.intro{
+	float: right;
+	width: 50%;
+	top: 20%;
+}
+.myself{
+	justify-content: center;
+	align-items: center;
+}
+.intro p {
+	padding-left: 20px;
+	padding-top: 10%;
+}
+.brief {
+	padding top :80%;
+
+}
+
+}
+#contact{
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+	justify-content: center;
+	color: whitesmoke;
+	position: relative;
+
+
+}
+/*#contact::before{
+     content: "";
+	position: absolute;
+	top :0 ;
+	left: 0;
+
+	
+	height: 50%;
+	width: 100%;
+
+}*/
+.myself{
+	display: flex;
+	flex-direction: column;
+}
+.headings h1{
+	background-color: black;
+	padding-bottom: 50%;
+	color: white;
+
+}
+
+
+
+.container{
+	display: flex;
+	flex-direction: column;
+	
+	
+}
+
+
+#contact h1{
+	background-color: black;
+	color: whitesmoke;
+	margin-top: 0;
+}
+#About h1{
+	background-color: black;
+	color: whitesmoke;
+	margin-top: 0;
+}
+
+.citem{
+display: flex;
+justify-content: space-around;
+	
+	
+	
+}
+.fitem{
+	width: 5.3%;
+	height: 5%;
+	
+	justify-content: center;
+	margin: 6px ;
+
+}
+.snap:hover{
+	background-color: yellow;
+	color: black;
+	cursor: pointer;
+	box-shadow: 0 0 7px white ,0 0 3px  yellow;
+
+}
+.mail:hover{
+	background-color: yellow;
+	color: black;
+	cursor: pointer;
+	box-shadow: 0 0 2px white ,0 0 1px  yellow;
+
+}
+.Facebook:hover{
+	background-color: skyblue;
+	color: black;
+	cursor: pointer;
+	box-shadow: 0 0 2px white ,0 0 3px  skyblue;
+
+}
